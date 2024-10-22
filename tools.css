@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Styles */
+header {
+    background-color: #2f5e85;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center; /* Vertically center the logo and nav items */
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    align-items: center; /* Align nav items vertically */
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #3a8cc1;
+}
+
+/* Breathing Exercise Section */
+.breathing-exercise {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 10px;
+}
+
+#timer {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+button#start-exercise {
+    background-color: #3a8cc1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#start-exercise:hover {
+    background-color: #007BFF;
+}
+
+/* Tools Page Styles */
+.tools-page {
+    padding: 40px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between products */
+}
+
+.product {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px; /* Set a fixed width for product boxes */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    height: 150px; /* Example height for product image */
+    background-color: #eaeaea; /* Placeholder background */
+}
+
+/* Logo Styles */
+.logo {
+    display: flex;
+    align-items: center; /* Center the logo vertically */
+}
+
+.logo img {
+    max-height: 80px;   /* Adjust this value to make the logo smaller */
+    width: auto;        /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the entire image fits within the container */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2f5e85;
+    color: white;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
